@@ -40,8 +40,9 @@ examples/*.o.tmp
 examples/*.out.js
 examples/*.out.wasm
 examples/example_glfw_opengl3/web/*
+examples/example_glfw_wgpu/web/*
+examples/example_glfw_wgpu/external/*
 examples/example_sdl2_opengl3/web/*
-examples/example_emscripten_wgpu/web/*
 
 ## JetBrains IDE artifacts
 .idea
@@ -58,8 +59,15 @@ examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
 
-#jerryadds
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+/output.txt
+
+# Binaries
 bin/
 obj/
-*.user
-ImGui.vcxproj
